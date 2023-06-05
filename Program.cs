@@ -30,6 +30,15 @@
             {
                 Console.WriteLine(" and condition not met ");
             }
+
+            Console.WriteLine("conditions types");
+            int t=1,y=4,z=5;
+            if (t<y && y<=z)
+            {
+                Console.WriteLine("that is great ");
+            }
+            else
+            { Console.WriteLine("try ageen "); }
         }
     }
 }
