@@ -53,6 +53,14 @@
                 }
                 Console.WriteLine(" after j loop");
             }
+            Console.WriteLine(" Anuther nested loop: ");
+            for(int i=0; i<5;i++)
+            {
+                for(int j=0; j<i;j++)
+                {
+                    Console.WriteLine(j);
+                }
+            }
         }
     }
 }
